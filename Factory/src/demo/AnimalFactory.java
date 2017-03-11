@@ -7,6 +7,9 @@ public class AnimalFactory {
 		if(animal==null){
 			return null;
 		}
+		
+		
+		
 		if(animal.equalsIgnoreCase("pig")){
 			return new Pig();
 		}else if(animal.equalsIgnoreCase("dog")){
